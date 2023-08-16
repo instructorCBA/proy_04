@@ -9,15 +9,17 @@ const mostrarMenu = () => {
         console.log('   Seleccione una opción!'.green);
         console.log('===========================\n'.green);
 
-        console.log('============================================================'.cyan);
-        console.log(`=  `.cyan + `${'1.'.green} Crear tarea` + `                =`.cyan);
-        console.log(`=  `.cyan + `${'2.'.green} Listar tareas` + `              =`.cyan);
-        console.log(`=  `.cyan + `${'3.'.green} Listar tareas completadas` + `  =`.cyan);
-        console.log(`=  `.cyan + `${'4.'.green} Listar tareas pendientes` + `   =`.cyan);
-        console.log(`=  `.cyan + `${'5.'.green} Completar tarea(s)` + `         =`.cyan);
-        console.log(`=  `.cyan + `${'6.'.green} Borrar tarea` + `               =`.cyan);
-        console.log(`=  `.cyan + `${'0.'.green} Salir` + `                      =`.cyan);
-        console.log('============================================================'.cyan);
+        console.log('||||||||||||||||||||||||||||||||||||'.cyan);
+        console.log(`||                                ||`.cyan);
+        console.log(`||  `.cyan + `${'1.'.green} Crear tarea` + `                ||`.cyan);
+        console.log(`||  `.cyan + `${'2.'.green} Listar tareas` + `              ||`.cyan);
+        console.log(`||  `.cyan + `${'3.'.green} Listar tareas completadas` + `  ||`.cyan);
+        console.log(`||  `.cyan + `${'4.'.green} Listar tareas pendientes` + `   ||`.cyan);
+        console.log(`||  `.cyan + `${'5.'.green} Completar tarea(s)` + `         ||`.cyan);
+        console.log(`||  `.cyan + `${'6.'.green} Borrar tarea` + `               ||`.cyan);
+        console.log(`||  `.cyan + `${'0.'.green} Salir` + `                      ||`.cyan);
+        console.log(`||                                ||`.cyan);
+        console.log('||||||||||||||||||||||||||||||||||||'.cyan);
 
         //Define la interfaz que utiliza el usuario
         const readLine = require('readline').createInterface({
