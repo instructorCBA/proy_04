@@ -6,16 +6,18 @@ const mostrarMenu = () => {
         
         console.clear();
         console.log('==========================='.green);
-        console.log('   Seleccione una opción'.green);
+        console.log('   Seleccione una opción!'.green);
         console.log('===========================\n'.green);
 
-        console.log(`${'1.'.green} Crear tarea`);
-        console.log(`${'2.'.green} Listar tareas`);
-        console.log(`${'3.'.green} Listar tareas completadas`);
-        console.log(`${'4.'.green} Listar tareas pendientes`);
-        console.log(`${'5.'.green} Completar tarea(s)`);
-        console.log(`${'6.'.green} Borrar tarea`);
-        console.log(`${'0.'.green} Salir \n`);
+        console.log('============================================================'.cyan);
+        console.log(`=  `.cyan + `${'1.'.green} Crear tarea` + `                =`.cyan);
+        console.log(`=  `.cyan + `${'2.'.green} Listar tareas` + `              =`.cyan);
+        console.log(`=  `.cyan + `${'3.'.green} Listar tareas completadas` + `  =`.cyan);
+        console.log(`=  `.cyan + `${'4.'.green} Listar tareas pendientes` + `   =`.cyan);
+        console.log(`=  `.cyan + `${'5.'.green} Completar tarea(s)` + `         =`.cyan);
+        console.log(`=  `.cyan + `${'6.'.green} Borrar tarea` + `               =`.cyan);
+        console.log(`=  `.cyan + `${'0.'.green} Salir` + `                      =`.cyan);
+        console.log('============================================================'.cyan);
 
         //Define la interfaz que utiliza el usuario
         const readLine = require('readline').createInterface({
